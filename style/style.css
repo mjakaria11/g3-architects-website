@@ -1,0 +1,104 @@
+/* work google  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+  border-radius: 8px;
+  background: #FF900E;
+  padding: 20px 25px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  margin-top: 30px;
+}
+/* header st  */
+header{
+  background: rgba(255, 144, 14, 0.10);
+  padding: 50px 240px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nav-title{
+  font-size: 2.8rem;
+  color: #131313;
+  font-weight: 700;
+  margin-top: 30px;
+}
+nav > Ul{
+  display: flex;
+  margin-top: 50px;
+} 
+nav li{
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav li a{
+  text-decoration: none;
+}
+
+/* banner style  */
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.banner-tiltle{
+  color:#131313;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.banner-description{
+  color:  #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 30px;
+}
+.banner img{
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* responsive banner  */
+
+/* mobaile  */
+
+@media screen and (max-width:576px) {
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  
+}
+
+/* medium d  */
+@media screen and (min-width:576px) and (max-width:960px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+   flex-direction: column;
+  }
+}
